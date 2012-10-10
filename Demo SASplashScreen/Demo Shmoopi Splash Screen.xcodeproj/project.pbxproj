@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CF8A29C161DEF950016DAA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF8A29B161DEF950016DAA6 /* UIKit.framework */; };
+		4CF8A29E161DEF950016DAA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF8A29D161DEF950016DAA6 /* Foundation.framework */; };
+		4CF8A2A0161DEF950016DAA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF8A29F161DEF950016DAA6 /* CoreGraphics.framework */; };
+		4CF8A2A6161DEF950016DAA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CF8A2A4161DEF950016DAA6 /* InfoPlist.strings */; };
+		4CF8A2A8161DEF950016DAA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8A2A7161DEF950016DAA6 /* main.m */; };
+		4CF8A2AC161DEF950016DAA6 /* DSSSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8A2AB161DEF950016DAA6 /* DSSSAppDelegate.m */; };
+		4CF8A2AE161DEF950016DAA6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF8A2AD161DEF950016DAA6 /* Default.png */; };
+		4CF8A2B0161DEF950016DAA6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF8A2AF161DEF950016DAA6 /* Default@2x.png */; };
+		4CF8A2B2161DEF950016DAA6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF8A2B1161DEF950016DAA6 /* Default-568h@2x.png */; };
+		4CF8A2B5161DEF950016DAA6 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF8A2B3161DEF950016DAA6 /* MainStoryboard_iPhone.storyboard */; };
+		4CF8A2B8161DEF950016DAA6 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF8A2B6161DEF950016DAA6 /* MainStoryboard_iPad.storyboard */; };
+		4CF8A2BB161DEF950016DAA6 /* DSSSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8A2BA161DEF950016DAA6 /* DSSSViewController.m */; };
+		4CF8A2C3161DEFBC0016DAA6 /* Untitled.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 4CF8A2C2161DEFBC0016DAA6 /* Untitled.m4v */; };
+		4CF8A2C9161DF01E0016DAA6 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF8A2C8161DF01E0016DAA6 /* MediaPlayer.framework */; };
+		D7D6EB9C1625CB7900BDC1B8 /* SASplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D6EB9B1625CB7900BDC1B8 /* SASplashScreen.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CF8A297161DEF950016DAA6 /* Demo Shmoopi Splash Screen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo Shmoopi Splash Screen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF8A29B161DEF950016DAA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CF8A29D161DEF950016DAA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CF8A29F161DEF950016DAA6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CF8A2A3161DEF950016DAA6 /* Demo Shmoopi Splash Screen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo Shmoopi Splash Screen-Info.plist"; sourceTree = "<group>"; };
+		4CF8A2A5161DEF950016DAA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CF8A2A7161DEF950016DAA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CF8A2A9161DEF950016DAA6 /* Demo Shmoopi Splash Screen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo Shmoopi Splash Screen-Prefix.pch"; sourceTree = "<group>"; };
+		4CF8A2AA161DEF950016DAA6 /* DSSSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSSSAppDelegate.h; sourceTree = "<group>"; };
+		4CF8A2AB161DEF950016DAA6 /* DSSSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSSSAppDelegate.m; sourceTree = "<group>"; };
+		4CF8A2AD161DEF950016DAA6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4CF8A2AF161DEF950016DAA6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4CF8A2B1161DEF950016DAA6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4CF8A2B4161DEF950016DAA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		4CF8A2B7161DEF950016DAA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		4CF8A2B9161DEF950016DAA6 /* DSSSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSSSViewController.h; sourceTree = "<group>"; };
+		4CF8A2BA161DEF950016DAA6 /* DSSSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSSSViewController.m; sourceTree = "<group>"; };
+		4CF8A2C2161DEFBC0016DAA6 /* Untitled.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Untitled.m4v; sourceTree = "<group>"; };
+		4CF8A2C8161DF01E0016DAA6 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		D7D6EB9A1625CB7900BDC1B8 /* SASplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASplashScreen.h; sourceTree = "<group>"; };
+		D7D6EB9B1625CB7900BDC1B8 /* SASplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASplashScreen.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CF8A294161DEF950016DAA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF8A2C9161DF01E0016DAA6 /* MediaPlayer.framework in Frameworks */,
+				4CF8A29C161DEF950016DAA6 /* UIKit.framework in Frameworks */,
+				4CF8A29E161DEF950016DAA6 /* Foundation.framework in Frameworks */,
+				4CF8A2A0161DEF950016DAA6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CF8A28C161DEF940016DAA6 = {
+			isa = PBXGroup;
+			children = (
+				4CF8A2A1161DEF950016DAA6 /* Demo Shmoopi Splash Screen */,
+				4CF8A29A161DEF950016DAA6 /* Frameworks */,
+				4CF8A298161DEF950016DAA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CF8A298161DEF950016DAA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CF8A297161DEF950016DAA6 /* Demo Shmoopi Splash Screen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CF8A29A161DEF950016DAA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CF8A2C8161DF01E0016DAA6 /* MediaPlayer.framework */,
+				4CF8A29B161DEF950016DAA6 /* UIKit.framework */,
+				4CF8A29D161DEF950016DAA6 /* Foundation.framework */,
+				4CF8A29F161DEF950016DAA6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CF8A2A1161DEF950016DAA6 /* Demo Shmoopi Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D7D6EB991625CB7900BDC1B8 /* SASplashScreen */,
+				4CF8A2AA161DEF950016DAA6 /* DSSSAppDelegate.h */,
+				4CF8A2AB161DEF950016DAA6 /* DSSSAppDelegate.m */,
+				4CF8A2B3161DEF950016DAA6 /* MainStoryboard_iPhone.storyboard */,
+				4CF8A2B6161DEF950016DAA6 /* MainStoryboard_iPad.storyboard */,
+				4CF8A2B9161DEF950016DAA6 /* DSSSViewController.h */,
+				4CF8A2BA161DEF950016DAA6 /* DSSSViewController.m */,
+				4CF8A2A2161DEF950016DAA6 /* Supporting Files */,
+			);
+			path = "Demo Shmoopi Splash Screen";
+			sourceTree = "<group>";
+		};
+		4CF8A2A2161DEF950016DAA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CF8A2C1161DEF9F0016DAA6 /* Videos */,
+				4CF8A2A3161DEF950016DAA6 /* Demo Shmoopi Splash Screen-Info.plist */,
+				4CF8A2A4161DEF950016DAA6 /* InfoPlist.strings */,
+				4CF8A2A7161DEF950016DAA6 /* main.m */,
+				4CF8A2A9161DEF950016DAA6 /* Demo Shmoopi Splash Screen-Prefix.pch */,
+				4CF8A2AD161DEF950016DAA6 /* Default.png */,
+				4CF8A2AF161DEF950016DAA6 /* Default@2x.png */,
+				4CF8A2B1161DEF950016DAA6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CF8A2C1161DEF9F0016DAA6 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				4CF8A2C2161DEFBC0016DAA6 /* Untitled.m4v */,
+			);
+			name = Videos;
+			sourceTree = "<group>";
+		};
+		D7D6EB991625CB7900BDC1B8 /* SASplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D7D6EB9A1625CB7900BDC1B8 /* SASplashScreen.h */,
+				D7D6EB9B1625CB7900BDC1B8 /* SASplashScreen.m */,
+			);
+			path = SASplashScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CF8A296161DEF950016DAA6 /* Demo Shmoopi Splash Screen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF8A2BE161DEF950016DAA6 /* Build configuration list for PBXNativeTarget "Demo Shmoopi Splash Screen" */;
+			buildPhases = (
+				4CF8A293161DEF950016DAA6 /* Sources */,
+				4CF8A294161DEF950016DAA6 /* Frameworks */,
+				4CF8A295161DEF950016DAA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo Shmoopi Splash Screen";
+			productName = "Demo Shmoopi Splash Screen";
+			productReference = 4CF8A297161DEF950016DAA6 /* Demo Shmoopi Splash Screen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CF8A28E161DEF940016DAA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DSSS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Shmoopi LLC";
+			};
+			buildConfigurationList = 4CF8A291161DEF940016DAA6 /* Build configuration list for PBXProject "Demo Shmoopi Splash Screen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CF8A28C161DEF940016DAA6;
+			productRefGroup = 4CF8A298161DEF950016DAA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CF8A296161DEF950016DAA6 /* Demo Shmoopi Splash Screen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CF8A295161DEF950016DAA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF8A2A6161DEF950016DAA6 /* InfoPlist.strings in Resources */,
+				4CF8A2AE161DEF950016DAA6 /* Default.png in Resources */,
+				4CF8A2B0161DEF950016DAA6 /* Default@2x.png in Resources */,
+				4CF8A2B2161DEF950016DAA6 /* Default-568h@2x.png in Resources */,
+				4CF8A2B5161DEF950016DAA6 /* MainStoryboard_iPhone.storyboard in Resources */,
+				4CF8A2B8161DEF950016DAA6 /* MainStoryboard_iPad.storyboard in Resources */,
+				4CF8A2C3161DEFBC0016DAA6 /* Untitled.m4v in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CF8A293161DEF950016DAA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF8A2A8161DEF950016DAA6 /* main.m in Sources */,
+				4CF8A2AC161DEF950016DAA6 /* DSSSAppDelegate.m in Sources */,
+				4CF8A2BB161DEF950016DAA6 /* DSSSViewController.m in Sources */,
+				D7D6EB9C1625CB7900BDC1B8 /* SASplashScreen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CF8A2A4161DEF950016DAA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF8A2A5161DEF950016DAA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4CF8A2B3161DEF950016DAA6 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF8A2B4161DEF950016DAA6 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4CF8A2B6161DEF950016DAA6 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF8A2B7161DEF950016DAA6 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CF8A2BC161DEF950016DAA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CF8A2BD161DEF950016DAA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CF8A2BF161DEF950016DAA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo Shmoopi Splash Screen/Demo Shmoopi Splash Screen-Prefix.pch";
+				INFOPLIST_FILE = "Demo Shmoopi Splash Screen/Demo Shmoopi Splash Screen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4CF8A2C0161DEF950016DAA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo Shmoopi Splash Screen/Demo Shmoopi Splash Screen-Prefix.pch";
+				INFOPLIST_FILE = "Demo Shmoopi Splash Screen/Demo Shmoopi Splash Screen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CF8A291161DEF940016DAA6 /* Build configuration list for PBXProject "Demo Shmoopi Splash Screen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF8A2BC161DEF950016DAA6 /* Debug */,
+				4CF8A2BD161DEF950016DAA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF8A2BE161DEF950016DAA6 /* Build configuration list for PBXNativeTarget "Demo Shmoopi Splash Screen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF8A2BF161DEF950016DAA6 /* Debug */,
+				4CF8A2C0161DEF950016DAA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CF8A28E161DEF940016DAA6 /* Project object */;
+}
